@@ -1,0 +1,3 @@
+target 'ALL_TEST' do
+  pod 'Masonry'
+end
