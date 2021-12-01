@@ -50,6 +50,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0443051C27571BE2000D8E74 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		0482D8D227562BF000E06CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +78,7 @@
 		0482D8DD27562BF000E06CC3 /* ALL_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				0443051C27571BE2000D8E74 /* Block */,
 				0482D8F727562DBC00E06CC3 /* UIScrollView自动布局 */,
 				0482D8DE27562BF000E06CC3 /* AppDelegate.h */,
 				0482D8DF27562BF000E06CC3 /* AppDelegate.m */,
@@ -110,7 +118,6 @@
 				F39CCFC099A21285457E37BD /* Pods-ALL_TEST.debug.xcconfig */,
 				8E1576BEA4B6E86E0F74C35D /* Pods-ALL_TEST.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
