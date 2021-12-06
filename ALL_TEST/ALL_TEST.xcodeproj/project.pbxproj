@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC48D275E15B400170AF4 /* MMImageDownloader.m */; };
+		04615AC32758C755006744CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04615AC22758C755006744CA /* Person.m */; };
 		0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8DF27562BF000E06CC3 /* AppDelegate.m */; };
 		0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8E227562BF000E06CC3 /* SceneDelegate.m */; };
 		0482D8E627562BF000E06CC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8E527562BF000E06CC3 /* ViewController.m */; };
@@ -19,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043EC48C275E15B400170AF4 /* MMImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMImageDownloader.h; sourceTree = "<group>"; };
+		043EC48D275E15B400170AF4 /* MMImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMImageDownloader.m; sourceTree = "<group>"; };
+		04615AC12758C755006744CA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04615AC22758C755006744CA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04615AC42758C811006744CA /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Person.cpp; path = ALL_TEST/Person.cpp; sourceTree = SOURCE_ROOT; };
 		0482D8DB27562BF000E06CC3 /* ALL_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALL_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0482D8DE27562BF000E06CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0482D8DF27562BF000E06CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043EC48B275E14D200170AF4 /* 获取网络图片size */ = {
+			isa = PBXGroup;
+			children = (
+				043EC48C275E15B400170AF4 /* MMImageDownloader.h */,
+				043EC48D275E15B400170AF4 /* MMImageDownloader.m */,
+			);
+			path = "获取网络图片size";
+			sourceTree = "<group>";
+		};
 		0482D8D227562BF000E06CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +87,11 @@
 		0482D8DD27562BF000E06CC3 /* ALL_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				043EC48B275E14D200170AF4 /* 获取网络图片size */,
 				0482D8F727562DBC00E06CC3 /* UIScrollView自动布局 */,
+				04615AC12758C755006744CA /* Person.h */,
+				04615AC22758C755006744CA /* Person.m */,
+				04615AC42758C811006744CA /* Person.cpp */,
 				0482D8DE27562BF000E06CC3 /* AppDelegate.h */,
 				0482D8DF27562BF000E06CC3 /* AppDelegate.m */,
 				0482D8E127562BF000E06CC3 /* SceneDelegate.h */,
@@ -209,11 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04615AC32758C755006744CA /* Person.m in Sources */,
 				0482D8E627562BF000E06CC3 /* ViewController.m in Sources */,
 				0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */,
 				0482D8F127562BF200E06CC3 /* main.m in Sources */,
 				0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */,
 				0482D8FA27562E0C00E06CC3 /* ScrollViewAutolayoutVC.m in Sources */,
+				043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

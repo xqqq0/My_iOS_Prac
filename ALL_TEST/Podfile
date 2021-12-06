@@ -1,3 +1,4 @@
 target 'ALL_TEST' do
   pod 'Masonry'
+  pod 'SDWebImage'
 end

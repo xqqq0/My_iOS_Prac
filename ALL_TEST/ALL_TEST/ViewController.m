@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "ScrollViewAutolayoutVC.h"
+#import "MMImageDownloader.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [MMImageDownloader downloadImageSizeWithURL:[NSURL URLWithString:@"http://10.9.180.53/1.jpg"] callback:^(CGSize size) {
+        NSLog(@"%@",NSStringFromCGSize(size));
+    }];
+    
 }
 
 
