@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXC-wo-5vr">
-                                <rect key="frame" x="57" y="148" width="300" height="44"/>
+                                <rect key="frame" x="57" y="88" width="300" height="44"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="C7h-Vv-b6b"/>
@@ -36,12 +36,56 @@
                                     <action selector="scrollViewBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1TT-qD-UQ1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08C-gf-F4r">
+                                <rect key="frame" x="57" y="176" width="300" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Yzf-ff-kEk"/>
+                                    <constraint firstAttribute="height" constant="44" id="mN3-pP-Joa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="tableVIew">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tableviewClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T0c-Mn-9AU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uN-0O-0BR">
+                                <rect key="frame" x="57" y="269" width="300" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="DdQ-sc-5kJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="Wox-Rz-Rok"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="collectionView">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="collectionVIewClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pD-Bt-sif"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="gXC-wo-5vr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Qh5-WF-6Bw"/>
+                            <constraint firstItem="08C-gf-F4r" firstAttribute="centerX" secondItem="gXC-wo-5vr" secondAttribute="centerX" id="NkK-C9-lgj"/>
+                            <constraint firstItem="gXC-wo-5vr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qh5-WF-6Bw"/>
+                            <constraint firstItem="5uN-0O-0BR" firstAttribute="top" secondItem="08C-gf-F4r" secondAttribute="bottom" constant="49" id="UO1-Rp-qUg"/>
+                            <constraint firstItem="5uN-0O-0BR" firstAttribute="centerX" secondItem="08C-gf-F4r" secondAttribute="centerX" id="eZv-6W-Ga5"/>
                             <constraint firstItem="gXC-wo-5vr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iGL-0U-zTc"/>
+                            <constraint firstItem="08C-gf-F4r" firstAttribute="top" secondItem="gXC-wo-5vr" secondAttribute="bottom" constant="44" id="wqQ-UJ-Ru8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="crU-kS-4zv"/>

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC48D275E15B400170AF4 /* MMImageDownloader.m */; };
+		044E566F27698E5C0082D697 /* TestSelectCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */; };
+		044E567327698F320082D697 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E567227698F320082D697 /* TestCollectionViewController.m */; };
 		04615AC32758C755006744CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04615AC22758C755006744CA /* Person.m */; };
 		0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8DF27562BF000E06CC3 /* AppDelegate.m */; };
 		0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8E227562BF000E06CC3 /* SceneDelegate.m */; };
@@ -17,12 +19,17 @@
 		0482D8EE27562BF200E06CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0482D8EC27562BF200E06CC3 /* LaunchScreen.storyboard */; };
 		0482D8F127562BF200E06CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8F027562BF200E06CC3 /* main.m */; };
 		0482D8FA27562E0C00E06CC3 /* ScrollViewAutolayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8F927562E0C00E06CC3 /* ScrollViewAutolayoutVC.m */; };
+		049299FA27632A82003B1ADC /* TableviewPageEnableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049299F927632A82003B1ADC /* TableviewPageEnableViewController.m */; };
 		DF9DD25BA9C14FDA8287F4CA /* libPods-ALL_TEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EBAE0F4F2DDE1ABC1DD4AC /* libPods-ALL_TEST.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043EC48C275E15B400170AF4 /* MMImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMImageDownloader.h; sourceTree = "<group>"; };
 		043EC48D275E15B400170AF4 /* MMImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMImageDownloader.m; sourceTree = "<group>"; };
+		044E566D27698E5C0082D697 /* TestSelectCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSelectCollectionCell.h; sourceTree = "<group>"; };
+		044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSelectCollectionCell.m; sourceTree = "<group>"; };
+		044E567127698F320082D697 /* TestCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		044E567227698F320082D697 /* TestCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
 		04615AC12758C755006744CA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		04615AC22758C755006744CA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		04615AC42758C811006744CA /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Person.cpp; path = ALL_TEST/Person.cpp; sourceTree = SOURCE_ROOT; };
@@ -40,6 +47,8 @@
 		0482D8F027562BF200E06CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0482D8F827562E0C00E06CC3 /* ScrollViewAutolayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewAutolayoutVC.h; sourceTree = "<group>"; };
 		0482D8F927562E0C00E06CC3 /* ScrollViewAutolayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewAutolayoutVC.m; sourceTree = "<group>"; };
+		049299F827632A82003B1ADC /* TableviewPageEnableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableviewPageEnableViewController.h; sourceTree = "<group>"; };
+		049299F927632A82003B1ADC /* TableviewPageEnableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewPageEnableViewController.m; sourceTree = "<group>"; };
 		89EBAE0F4F2DDE1ABC1DD4AC /* libPods-ALL_TEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALL_TEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1576BEA4B6E86E0F74C35D /* Pods-ALL_TEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL_TEST.release.xcconfig"; path = "Target Support Files/Pods-ALL_TEST/Pods-ALL_TEST.release.xcconfig"; sourceTree = "<group>"; };
 		F39CCFC099A21285457E37BD /* Pods-ALL_TEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL_TEST.debug.xcconfig"; path = "Target Support Files/Pods-ALL_TEST/Pods-ALL_TEST.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +75,17 @@
 			path = "获取网络图片size";
 			sourceTree = "<group>";
 		};
+		044E567027698E660082D697 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				044E566D27698E5C0082D697 /* TestSelectCollectionCell.h */,
+				044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */,
+				044E567127698F320082D697 /* TestCollectionViewController.h */,
+				044E567227698F320082D697 /* TestCollectionViewController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		0482D8D227562BF000E06CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +109,8 @@
 			children = (
 				043EC48B275E14D200170AF4 /* 获取网络图片size */,
 				0482D8F727562DBC00E06CC3 /* UIScrollView自动布局 */,
+				049299FB27632A8C003B1ADC /* Tableview */,
+				044E567027698E660082D697 /* CollectionView */,
 				04615AC12758C755006744CA /* Person.h */,
 				04615AC22758C755006744CA /* Person.m */,
 				04615AC42758C811006744CA /* Person.cpp */,
@@ -114,6 +136,15 @@
 				0482D8F927562E0C00E06CC3 /* ScrollViewAutolayoutVC.m */,
 			);
 			path = "UIScrollView自动布局";
+			sourceTree = "<group>";
+		};
+		049299FB27632A8C003B1ADC /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				049299F827632A82003B1ADC /* TableviewPageEnableViewController.h */,
+				049299F927632A82003B1ADC /* TableviewPageEnableViewController.m */,
+			);
+			path = Tableview;
 			sourceTree = "<group>";
 		};
 		A736A2E3BB9C2944A5D920BA /* Frameworks */ = {
@@ -233,6 +264,9 @@
 				0482D8E627562BF000E06CC3 /* ViewController.m in Sources */,
 				0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */,
 				0482D8F127562BF200E06CC3 /* main.m in Sources */,
+				044E566F27698E5C0082D697 /* TestSelectCollectionCell.m in Sources */,
+				049299FA27632A82003B1ADC /* TableviewPageEnableViewController.m in Sources */,
+				044E567327698F320082D697 /* TestCollectionViewController.m in Sources */,
 				0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */,
 				0482D8FA27562E0C00E06CC3 /* ScrollViewAutolayoutVC.m in Sources */,
 				043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */,
