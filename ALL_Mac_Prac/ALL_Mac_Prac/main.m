@@ -14,22 +14,52 @@
 
 extern void _objc_autoreleasePoolPrint(void);
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        @autoreleasepool {
-        }
-        _objc_autoreleasePoolPrint();
-        @autoreleasepool {
-            @autoreleasepool {
+void bubbleSort(void) {
+    NSMutableArray *array = [[NSMutableArray alloc] initWithArray: @[@2,@9,@10,@3,@5]];
+    for (int i = 0; i < array.count; i++) {
+        for (int j = 0; j < array.count-1-i; j++) {
+            if ([array[j] integerValue] > [array[j+1] integerValue]) {
+                [array exchangeObjectAtIndex:j withObjectAtIndex:j+1];
             }
-            _objc_autoreleasePoolPrint();
         }
-        _objc_autoreleasePoolPrint();
     }
-    _objc_autoreleasePoolPrint();
-    return 0;
+    NSLog(@"------%@",array);
 }
 
+void insertSort(void) {
+    NSMutableArray *array = [[NSMutableArray alloc] initWithArray: @[@9,@2,@10,@3,@5]];
+        for (int i = 1; i < array.count; i++) {
+            NSInteger value = [array[i] integerValue];
+            int j = i - 1;
+            for (; j >= 0; j--) {
+                if ([array[j] integerValue] > value) {
+                    break;
+                } else {
+                    array[j + 1] = array[j];
+                }
+            }
+            array[j + 1] = [NSNumber numberWithInteger:value];
+        }
+        NSLog(@"------%@",array);
+}
+
+int main(int argc, const char * argv[]) {
+//    @autoreleasepool {
+//        @autoreleasepool {
+//        }
+//        _objc_autoreleasePoolPrint();
+//        @autoreleasepool {
+//            @autoreleasepool {
+//            }
+//            _objc_autoreleasePoolPrint();
+//        }
+//        _objc_autoreleasePoolPrint();
+//    }
+//    _objc_autoreleasePoolPrint();
+//    bubbleSort();
+    insertSort();
+    return 0;
+}
 
 //void test1(void) {
 //            static  NSObject *person1;

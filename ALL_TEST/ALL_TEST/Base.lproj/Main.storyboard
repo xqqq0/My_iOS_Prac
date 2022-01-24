@@ -76,10 +76,32 @@
                                     <action selector="collectionVIewClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pD-Bt-sif"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyd-fs-p2P">
+                                <rect key="frame" x="57" y="371" width="300" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="00R-OY-IZ5"/>
+                                    <constraint firstAttribute="height" constant="44" id="H6F-AJ-C5g"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="VC的生命周期">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="liftCycleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h1j-NH-Mbq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
+                            <constraint firstItem="iyd-fs-p2P" firstAttribute="centerX" secondItem="5uN-0O-0BR" secondAttribute="centerX" id="0r4-6z-K0s"/>
+                            <constraint firstItem="iyd-fs-p2P" firstAttribute="top" secondItem="5uN-0O-0BR" secondAttribute="bottom" constant="58" id="Hwy-Ja-tOu"/>
                             <constraint firstItem="08C-gf-F4r" firstAttribute="centerX" secondItem="gXC-wo-5vr" secondAttribute="centerX" id="NkK-C9-lgj"/>
                             <constraint firstItem="gXC-wo-5vr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qh5-WF-6Bw"/>
                             <constraint firstItem="5uN-0O-0BR" firstAttribute="top" secondItem="08C-gf-F4r" secondAttribute="bottom" constant="49" id="UO1-Rp-qUg"/>

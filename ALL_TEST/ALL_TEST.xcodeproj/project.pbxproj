@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0427ACB9279E7E1000D8FEE8 /* LiveCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427ACB8279E7E1000D8FEE8 /* LiveCycleViewController.m */; };
 		043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC48D275E15B400170AF4 /* MMImageDownloader.m */; };
 		044E566F27698E5C0082D697 /* TestSelectCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */; };
 		044E567327698F320082D697 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E567227698F320082D697 /* TestCollectionViewController.m */; };
+		045DCFD1279A95C800C5DE4F /* Person+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DCFD0279A95C800C5DE4F /* Person+Extension.m */; };
 		04615AC32758C755006744CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04615AC22758C755006744CA /* Person.m */; };
+		0475AFA1279811B500F860A3 /* YMGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475AFA0279811B500F860A3 /* YMGestureRecognizer.m */; };
 		0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8DF27562BF000E06CC3 /* AppDelegate.m */; };
 		0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8E227562BF000E06CC3 /* SceneDelegate.m */; };
 		0482D8E627562BF000E06CC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482D8E527562BF000E06CC3 /* ViewController.m */; };
@@ -24,15 +27,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0427ACB7279E7E1000D8FEE8 /* LiveCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveCycleViewController.h; sourceTree = "<group>"; };
+		0427ACB8279E7E1000D8FEE8 /* LiveCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCycleViewController.m; sourceTree = "<group>"; };
 		043EC48C275E15B400170AF4 /* MMImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMImageDownloader.h; sourceTree = "<group>"; };
 		043EC48D275E15B400170AF4 /* MMImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMImageDownloader.m; sourceTree = "<group>"; };
 		044E566D27698E5C0082D697 /* TestSelectCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSelectCollectionCell.h; sourceTree = "<group>"; };
 		044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSelectCollectionCell.m; sourceTree = "<group>"; };
 		044E567127698F320082D697 /* TestCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
 		044E567227698F320082D697 /* TestCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		045DCFCF279A95C800C5DE4F /* Person+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Extension.h"; sourceTree = "<group>"; };
+		045DCFD0279A95C800C5DE4F /* Person+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Extension.m"; sourceTree = "<group>"; };
 		04615AC12758C755006744CA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		04615AC22758C755006744CA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		04615AC42758C811006744CA /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Person.cpp; path = ALL_TEST/Person.cpp; sourceTree = SOURCE_ROOT; };
+		0475AF9F279811B500F860A3 /* YMGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMGestureRecognizer.h; sourceTree = "<group>"; };
+		0475AFA0279811B500F860A3 /* YMGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMGestureRecognizer.m; sourceTree = "<group>"; };
 		0482D8DB27562BF000E06CC3 /* ALL_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALL_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0482D8DE27562BF000E06CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0482D8DF27562BF000E06CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0427ACBA279E7E1E00D8FEE8 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				0427ACB7279E7E1000D8FEE8 /* LiveCycleViewController.h */,
+				0427ACB8279E7E1000D8FEE8 /* LiveCycleViewController.m */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
 		043EC48B275E14D200170AF4 /* 获取网络图片size */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +102,24 @@
 				044E567227698F320082D697 /* TestCollectionViewController.m */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		045DCFD2279A95CF00C5DE4F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				045DCFCF279A95C800C5DE4F /* Person+Extension.h */,
+				045DCFD0279A95C800C5DE4F /* Person+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0475AFA2279811BF00F860A3 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				0475AF9F279811B500F860A3 /* YMGestureRecognizer.h */,
+				0475AFA0279811B500F860A3 /* YMGestureRecognizer.m */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 		0482D8D227562BF000E06CC3 = {
@@ -111,6 +147,9 @@
 				0482D8F727562DBC00E06CC3 /* UIScrollView自动布局 */,
 				049299FB27632A8C003B1ADC /* Tableview */,
 				044E567027698E660082D697 /* CollectionView */,
+				0475AFA2279811BF00F860A3 /* Gesture */,
+				045DCFD2279A95CF00C5DE4F /* Category */,
+				0427ACBA279E7E1E00D8FEE8 /* LifeCycle */,
 				04615AC12758C755006744CA /* Person.h */,
 				04615AC22758C755006744CA /* Person.m */,
 				04615AC42758C811006744CA /* Person.cpp */,
@@ -260,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DCFD1279A95C800C5DE4F /* Person+Extension.m in Sources */,
+				0475AFA1279811B500F860A3 /* YMGestureRecognizer.m in Sources */,
 				04615AC32758C755006744CA /* Person.m in Sources */,
 				0482D8E627562BF000E06CC3 /* ViewController.m in Sources */,
 				0482D8E027562BF000E06CC3 /* AppDelegate.m in Sources */,
@@ -267,6 +308,7 @@
 				044E566F27698E5C0082D697 /* TestSelectCollectionCell.m in Sources */,
 				049299FA27632A82003B1ADC /* TableviewPageEnableViewController.m in Sources */,
 				044E567327698F320082D697 /* TestCollectionViewController.m in Sources */,
+				0427ACB9279E7E1000D8FEE8 /* LiveCycleViewController.m in Sources */,
 				0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */,
 				0482D8FA27562E0C00E06CC3 /* ScrollViewAutolayoutVC.m in Sources */,
 				043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */,
