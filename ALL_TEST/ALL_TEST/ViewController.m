@@ -52,7 +52,36 @@
 
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    dispatch_semaphore_t sem = dispatch_semaphore_create(0);
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSLog(@"任务1:%@",[NSThread currentThread]);
+        sleep(1);
+        [self signal:sem];
+    });
+    
+    [self wait:sem];
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSLog(@"任务2:%@",[NSThread currentThread]);
+        [self signal:sem];
+    });
+    
+    
+    [self wait:sem];
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSLog(@"任务3:%@",[NSThread currentThread]);
+    });
+}
 
+- (void)signal:(dispatch_semaphore_t)sem {
+    NSLog(@"sem_sgnal%@",[NSThread currentThread]);
+    dispatch_semaphore_signal(sem);
+}
 
-
+- (void)wait:(dispatch_semaphore_t)sem {
+    NSLog(@"sem_wait%@",[NSThread currentThread]);
+    dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+}
 @end

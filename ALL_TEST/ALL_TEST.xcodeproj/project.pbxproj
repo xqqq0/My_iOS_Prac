@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040B528A27ABD55C00388426 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B528927ABD55C00388426 /* Man.m */; };
 		0427ACB9279E7E1000D8FEE8 /* LiveCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427ACB8279E7E1000D8FEE8 /* LiveCycleViewController.m */; };
 		043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC48D275E15B400170AF4 /* MMImageDownloader.m */; };
 		044E566F27698E5C0082D697 /* TestSelectCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E566E27698E5C0082D697 /* TestSelectCollectionCell.m */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040B528827ABD55C00388426 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		040B528927ABD55C00388426 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		0427ACB7279E7E1000D8FEE8 /* LiveCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveCycleViewController.h; sourceTree = "<group>"; };
 		0427ACB8279E7E1000D8FEE8 /* LiveCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCycleViewController.m; sourceTree = "<group>"; };
 		043EC48C275E15B400170AF4 /* MMImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMImageDownloader.h; sourceTree = "<group>"; };
@@ -75,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040B528427ABD53100388426 /* +load */ = {
+			isa = PBXGroup;
+			children = (
+				04615AC12758C755006744CA /* Person.h */,
+				04615AC22758C755006744CA /* Person.m */,
+				040B528827ABD55C00388426 /* Man.h */,
+				040B528927ABD55C00388426 /* Man.m */,
+			);
+			path = "+load";
+			sourceTree = "<group>";
+		};
 		0427ACBA279E7E1E00D8FEE8 /* LifeCycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +157,7 @@
 		0482D8DD27562BF000E06CC3 /* ALL_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				040B528427ABD53100388426 /* +load */,
 				043EC48B275E14D200170AF4 /* 获取网络图片size */,
 				0482D8F727562DBC00E06CC3 /* UIScrollView自动布局 */,
 				049299FB27632A8C003B1ADC /* Tableview */,
@@ -150,8 +165,6 @@
 				0475AFA2279811BF00F860A3 /* Gesture */,
 				045DCFD2279A95CF00C5DE4F /* Category */,
 				0427ACBA279E7E1E00D8FEE8 /* LifeCycle */,
-				04615AC12758C755006744CA /* Person.h */,
-				04615AC22758C755006744CA /* Person.m */,
 				04615AC42758C811006744CA /* Person.cpp */,
 				0482D8DE27562BF000E06CC3 /* AppDelegate.h */,
 				0482D8DF27562BF000E06CC3 /* AppDelegate.m */,
@@ -309,6 +322,7 @@
 				049299FA27632A82003B1ADC /* TableviewPageEnableViewController.m in Sources */,
 				044E567327698F320082D697 /* TestCollectionViewController.m in Sources */,
 				0427ACB9279E7E1000D8FEE8 /* LiveCycleViewController.m in Sources */,
+				040B528A27ABD55C00388426 /* Man.m in Sources */,
 				0482D8E327562BF000E06CC3 /* SceneDelegate.m in Sources */,
 				0482D8FA27562E0C00E06CC3 /* ScrollViewAutolayoutVC.m in Sources */,
 				043EC48E275E15B400170AF4 /* MMImageDownloader.m in Sources */,

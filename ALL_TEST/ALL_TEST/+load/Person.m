@@ -14,5 +14,8 @@
     };
     block();
 }
-
+//
+//+(void)load {
+//    NSLog(@"person load");
+//}
 @end
